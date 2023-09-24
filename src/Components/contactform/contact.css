@@ -1,0 +1,114 @@
+#contact-form{
+    width: 100%;
+    display: flex;
+}
+.background-footer{
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+
+}
+.background-footer img{
+    width: 98.9vw;
+
+}
+.form-data {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width:87%;
+    margin-left: 6.4rem;
+    margin-top: 3rem;
+}
+#newsletter{
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #FFFFFF80;
+    margin-bottom: 0;
+}
+#news{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #FFFFFF80;
+
+
+}
+.newsletters{
+    width: 100%;
+}
+.form-1 input,
+.form-1 textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: .8rem;
+    font-size: .9rem;
+    color: white;
+margin-left: 10rem;
+width: 34vw;
+margin-top: 1.5rem;
+
+}
+
+.form-1 input::placeholder,
+.form-1 textarea::placeholder {
+    color: white;
+    opacity: 0.6;
+}
+.submit-button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 50%;
+    width: 100px;
+    color: orangered;
+    height: 100px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-left: 52rem;
+   padding: 4.5rem;
+}
+
+#getintouch{
+    font-size: 8.4rem;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    color: white;
+position: absolute;
+z-index: 2;
+margin-top: 17rem;
+margin-left: 5.6rem;
+line-height: 8rem;
+padding-bottom: 3.5rem;
+width: 100vw;
+
+}
+.footer-banner{
+    display: flex;
+
+}
+#last-foot {
+    font-size: 0.75rem;
+  
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background-color: black;
+    color: white;
+    z-index: 4;
+    padding: .7rem;
+    text-align: center;
+    
+}

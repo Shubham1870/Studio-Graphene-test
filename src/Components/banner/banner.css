@@ -1,0 +1,99 @@
+.container-1 {
+    display: flex;
+    position: absolute;
+    z-index: 0;
+    top: 8.3rem;
+}
+
+.photo img {
+    position: relative;
+    left: 4.95rem;
+    width: 100vw;
+    display: block;
+    top: 2.7rem;
+    object-fit: contain; /* Ensure the image fits within its container */
+}
+.heads {
+    position: absolute;
+    top: 9rem;
+}
+
+.heads h1 {
+    font-size: 8.4rem;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: 0.3rem;
+}
+
+#first {
+    margin-left: 9.9rem;
+    position: relative;
+    z-index: 2;
+    line-height: 6.3rem;
+    margin-top: 2.5rem;
+}
+
+#second {
+    margin-left: 27.9rem;
+    position: relative;
+    z-index: 2;
+    letter-spacing: 0.1rem;
+    line-height: 6.3rem;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+
+#third {
+    margin-left: 14.7rem;
+    margin-top: 1rem;
+    position: relative;
+    z-index: 2;
+    line-height: 6.3rem;
+}
+
+#login-icon {
+    position: relative;
+    top: 3rem;
+    z-index: 2;
+    font-size: 2rem;
+    color: white;
+}
+
+#icon {
+    position: relative;
+    top: 3rem;
+    z-index: 2;
+    font-size: 2rem;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .container-1 {
+        flex-direction: column;
+        align-items: center;
+        top: 6rem;
+    }
+
+    .heads h1 {
+        font-size: 6rem;
+    }
+
+    #first,
+    #second,
+    #third {
+        margin-left: 0;
+        text-align: center;
+        line-height: 2rem;
+    }
+    
+    .photo img {
+        left: 0;
+    }
+    
+    #login-icon,
+    #icon {
+        top: 1rem;
+        font-size: 1.5rem;
+    }
+}
