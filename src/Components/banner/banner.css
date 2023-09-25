@@ -7,15 +7,16 @@
 
 .photo img {
     position: relative;
-    left: 4.95rem;
-    width: 100vw;
+    left: 4.5rem;
+    width: 94.2vw;
     display: block;
     top: 2.7rem;
-    object-fit: contain; /* Ensure the image fits within its container */
+    object-fit: contain;
 }
 .heads {
     position: absolute;
     top: 9rem;
+
 }
 
 .heads h1 {

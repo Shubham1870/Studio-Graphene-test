@@ -173,3 +173,27 @@ select {
     font-size: 0.9rem;
     margin: 0;
 }
+@media (max-width: 768px) {
+  .products-header div {
+    margin-left: 2rem; 
+  }
+.product-container h2{
+  font-size: 2rem;
+  margin-left: 0;
+}
+.product-container{
+  margin: 0;
+}
+.sidebar{
+  margin: 0;
+}
+  .arrow button {
+    font-size: 1.2rem; 
+    padding: 0.3rem 0.5rem;
+  }
+  
+  .product-list .product-card {
+    flex: 0 0 calc(50% - 1rem); 
+    padding: 2rem; 
+  }
+}
